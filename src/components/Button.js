@@ -16,7 +16,7 @@ export default function ButtonItem() {
         const abc = [...itemsView,[]]
         setItem(count => count + 1);
         setOpen(true);
-        setItemsView(abc) 
+        setItemsView(abc)
     };
     const handleReset = () => {
         setItem(0)
